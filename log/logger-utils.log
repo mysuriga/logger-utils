@@ -1,0 +1,8 @@
+2019-12-30T11:34:35.473+0530 log_level=INFO  [92ae78ef-829e-4a4e-8c7a-ee1331c2f030] - REQ::BEGIN: active_threads=2 total_threads=6 method=null url=http://localhost:8182/rest/dummy
+2019-12-30T11:34:35.503+0530 log_level=INFO  [92ae78ef-829e-4a4e-8c7a-ee1331c2f030] - REQ::END: code=0 req_ms=88 cpu_ms=34 url=http://localhost:8182/rest/dummy
+2019-12-30T11:34:35.509+0530 log_level=INFO  [bbcb2db1-de55-42d6-8c90-18cd8c32f4f6] - REQ::BEGIN: active_threads=2 total_threads=6 method=null url=http://localhost:8182/rest/dummy
+2019-12-30T11:34:35.512+0530 log_level=INFO  [bbcb2db1-de55-42d6-8c90-18cd8c32f4f6] - REQ::END: code=0 req_ms=5 cpu_ms=3 url=http://localhost:8182/rest/dummy
+2019-12-30T11:34:35.521+0530 log_level=INFO  [9c2946cf-00cc-49b5-9f5f-db06bc83e9f6] - REQ::BEGIN: active_threads=2 total_threads=6 method=POST url=http://localhost:8182/rest/dummy --Error reading request body of the POST url: Exc_Message=null
+2019-12-30T11:34:35.522+0530 log_level=INFO  [9c2946cf-00cc-49b5-9f5f-db06bc83e9f6] - REQ::END: code=200 req_ms=4 cpu_ms=3 url=http://localhost:8182/rest/dummy
+2019-12-30T11:34:35.530+0530 log_level=INFO  [e46d6b9f-76a2-43e6-8777-5ea6368f9f54] - REQ::BEGIN: active_threads=2 total_threads=6 method=null url=http://localhost:8182/rest/dummy?param1=1&param2=2
+2019-12-30T11:34:35.532+0530 log_level=INFO  [e46d6b9f-76a2-43e6-8777-5ea6368f9f54] - REQ::END: code=200 req_ms=3 cpu_ms=2 url=http://localhost:8182/rest/dummy?param1=1&param2=2

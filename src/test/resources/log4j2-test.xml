@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="INFO" monitorInterval="60">
+    <Appenders>
+        <RollingFile name="RollingFile" fileName="log/logger-utils.log" filePattern="log/logger-utils.%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%date{yyyy-MM-dd'T'hh:mm:ss.SSSXX} log_level=%-5p [%X{X-TRACEID}] - %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="512 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="info" includeLocation="false">
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</configuration>
